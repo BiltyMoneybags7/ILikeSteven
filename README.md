@@ -16,7 +16,7 @@ Look at Steven because I like it
 
 ## Live Status:
 Check out the latest version here:  
-https://ilikesteven67.github.io
+https://ilikesteven67.github.io/ILikeSteven67/
 
 ## Instructions:
 No installation required - open the website on your browser and enjoy!
