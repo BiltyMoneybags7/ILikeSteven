@@ -11,7 +11,7 @@ This website includes a lot of Steven:
 - More Steven Coming Soon!
 
 
-## Live Status:
+## Live Status:🟢
 Check out the latest version here:  
 https://ilikesteven67.github.io/ILikeSteven67/
 
