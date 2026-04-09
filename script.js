@@ -428,6 +428,7 @@ searchForms.forEach((form) => {
       return;
     }
 
+    hideDropdown(dropdown);
     window.location.href = `search.html?q=${encodeURIComponent(rawQuery)}`;
   });
 });
@@ -445,9 +446,14 @@ if (pageName === "search") {
   const params = new URLSearchParams(window.location.search);
   const query = params.get("q") || "";
   const searchInput = document.querySelector('input[name="query"]');
+  const searchSection = document.querySelector(".search-results-section");
 
   if (searchInput) {
     searchInput.value = query;
+  }
+
+  if (searchSection) {
+    searchSection.classList.add("is-visible");
   }
 
   renderSearchResultsPage(query);
