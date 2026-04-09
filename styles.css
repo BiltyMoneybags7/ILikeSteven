@@ -585,10 +585,11 @@ main {
   line-height: 1.35;
 }
 
-.search-dropdown-item:hover,
-.search-dropdown-item:focus-visible,
-.search-dropdown-item.is-selected {
+.site-search .search-dropdown-item:hover,
+.site-search .search-dropdown-item:focus-visible,
+.site-search .search-dropdown-item.is-selected {
   background: #eaf3ff;
+  color: #000000;
   outline: none;
 }
 
