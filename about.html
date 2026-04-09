@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steven | About</title>
+  <title>Stupid Steven | About</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -14,19 +14,44 @@
     <div class="brand">
       <span class="brand-mark">S</span>
       <div>
-        <p class="eyebrow">Profile Site</p>
-        <h1>Steven</h1>
+        <p class="eyebrow">Joke Profile Site</p>
+        <h1>Stupid Steven</h1>
       </div>
     </div>
 
-    <nav class="main-nav" aria-label="Primary">
-      <a href="index.html" data-nav="overview">Overview</a>
-      <a href="about.html" data-nav="about">About</a>
-      <a href="gallery.html" data-nav="gallery">Gallery</a>
-      <a href="hobbies.html" data-nav="hobbies">Hobbies</a>
-      <a href="basics.html" data-nav="basics">Basics</a>
-      <a href="more-info.html" data-nav="more-info">More Info</a>
-    </nav>
+    <div class="header-tools">
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html" data-nav="overview">Overview</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+        <a href="hobbies.html" data-nav="hobbies">Hobbies</a>
+        <a href="basics.html" data-nav="basics">Basics</a>
+        <a href="relationships.html" data-nav="relationships">Relationships</a>
+        <a href="more-info.html" data-nav="more-info">More Info</a>
+      </nav>
+
+      <div class="utility-row">
+        <form class="site-search" data-search-form>
+          <label class="sr-only" for="site-search-about">Search the site</label>
+          <input id="site-search-about" name="query" type="search" placeholder="Search pages or topics">
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="social-links" aria-label="Social media links">
+          <a class="social-link" href="https://facebook.com/your-profile-here" target="_blank" rel="noreferrer" aria-label="Steven on Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.5 22v-8h2.7l.5-3.2h-3.2V8.7c0-.9.3-1.6 1.7-1.6H17V4.2c-.3 0-1.3-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.4v2.4H7.5V14h2.8v8h3.2Z"/>
+            </svg>
+          </a>
+          <a class="social-link" href="https://instagram.com/your-profile-here" target="_blank" rel="noreferrer" aria-label="Steven on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.2 3h9.6A4.2 4.2 0 0 1 21 7.2v9.6a4.2 4.2 0 0 1-4.2 4.2H7.2A4.2 4.2 0 0 1 3 16.8V7.2A4.2 4.2 0 0 1 7.2 3Zm0 1.8A2.4 2.4 0 0 0 4.8 7.2v9.6a2.4 2.4 0 0 0 2.4 2.4h9.6a2.4 2.4 0 0 0 2.4-2.4V7.2a2.4 2.4 0 0 0-2.4-2.4H7.2Zm10.05 1.35a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1ZM12 7.8A4.2 4.2 0 1 1 7.8 12 4.2 4.2 0 0 1 12 7.8Zm0 1.8A2.4 2.4 0 1 0 14.4 12 2.4 2.4 0 0 0 12 9.6Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p class="search-message" data-search-message aria-live="polite"></p>
+    </div>
   </header>
 
   <main class="page-shell">
@@ -38,19 +63,19 @@
       <div class="about-grid">
         <article class="info-panel">
           <p>
-            Steven is presented here as someone with a strong presence, personal story, and a set
-            of interests worth exploring. This page is the best place to write a fuller introduction
-            about who he is and what makes him memorable.
+            Steven is presented here as the star of an intentionally unserious profile site. This page
+            is the best place to explain the joke, describe his personality, and document the chaotic
+            little details that make Steven, well, Steven.
           </p>
           <p>
-            You can replace this with real details about his background, personality, goals, values,
-            and the type of impression he leaves on people.
+            You can replace this with real details about his background, personality, habits, and any
+            stories that prove why the nickname "Stupid Steven" somehow stuck.
           </p>
         </article>
         <article class="quote-panel">
           <p class="quote-mark">"</p>
           <p class="quote-text">
-            Steven brings together confidence, personality, and a story that deserves its own space.
+            Some people build a normal profile page. Steven somehow earned an entire comedy archive.
           </p>
         </article>
       </div>
@@ -58,7 +83,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Built as a multi-page profile website for Steven.</p>
+    <p>Built as a multi-page joke website for Stupid Steven.</p>
   </footer>
 
   <script src="script.js"></script>
